@@ -1,0 +1,7 @@
+package com.sscc.capsule.repository;
+
+import com.sscc.capsule.entity.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}
